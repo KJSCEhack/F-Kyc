@@ -4,18 +4,22 @@
 
     <div class="container">
         <div class="row">
-            <div class="col s12 m6 l6 offset-l4 offset-m4">
+            <div class="col s12 m6 l6 offset-l3 offset-m3">
                 <div class="row">
-                    <div class="col s12 m6">
-                        <div class="card blue-grey darken-1">
-                            <div class="card-content white-text">
-                                <span class="card-title">Card Title</span>
-                                <p>I am a very simple card. I am good at containing small bits of information.
-                                    I am convenient because I require little markup to use effectively.</p>
+                    <div class="col s12 m12 l12">
+                        <div class="card white z-depth-4" style="margin-top: 25%">
+                            <div class="card-content center black-text">
+                               <h1>
+                                   Welcome to E-kyc
+                               </h1>
+                                <h3>
+                                    our one stop kyc
+                                </h3>
                             </div>
                             <div class="card-action">
-                                <a href="#">This is a link</a>
-                                <a href="#">This is a link</a>
+                                <a href="{{ route('google.login') }}" class="center center-block">
+                                    <img class="waves-effect waves-light " src="https://developers.google.com/identity/images/btn_google_signin_dark_normal_web.png">
+                                </a>
                             </div>
                         </div>
                     </div>
